@@ -34,9 +34,7 @@ function Game({ squares, setSquares }) {
         if (square !== '') return;
 
         setSquares((squares) => {
-            const newSquares = squares.map((row) => [...row]);
-            newSquares[rowId][cellId] = symbol;
-            return newSquares;
+            squares[rowId][cellId] = symbol;
         });
 
         setTurn((turn) => (turn === 'X' ? 'O' : 'X'));

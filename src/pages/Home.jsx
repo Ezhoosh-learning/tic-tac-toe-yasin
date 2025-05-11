@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { useImmer } from 'use-immer';
 
 import Header from '../components/Header';
 import Form from '../components/Form';
 import Game from '../components/Game/Game';
 
 function Home() {
-    const [squars, setSquares] = useState(null);
+    const [squars, setSquares] = useImmer(null);
 
     return (
         <div className="container">
