@@ -1,0 +1,11 @@
+@import './common/_normalize.css';
+@import './common/_base.css';
+@import './common/_fonts.css';
+
+@import './components/_notify.css';
+@import './components/_header.css';
+@import './components/_form.css';
+@import './components/_result.css';
+@import './components/_game.css';
+@import './components/_board.css';
+@import './components/_square.css';

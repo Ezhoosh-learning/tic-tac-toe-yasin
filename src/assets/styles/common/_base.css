@@ -1,0 +1,59 @@
+body {
+    font-family: Outfit;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #e9ecef;
+    background-color: #212529;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+
+.container {
+    max-width: 50rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 45rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 35rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}

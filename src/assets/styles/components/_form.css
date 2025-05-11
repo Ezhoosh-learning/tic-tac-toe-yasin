@@ -1,0 +1,51 @@
+.form-content {
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form > p {
+    color: #dee2e6;
+}
+
+.form-controller {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.form-controller > input {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    color: #343a40;
+    background-color: #f8f9fa;
+}
+
+.form-controller > button {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    color: #f8f9fa;
+    background-color: #343a40;
+}
+
+@media only screen and (max-width: 576px) {
+    .form-controller {
+        flex-direction: column;
+    }
+
+    .form-controller > input {
+        width: 100%;
+    }
+
+    .form-controller > button {
+        width: 100%;
+    }
+}

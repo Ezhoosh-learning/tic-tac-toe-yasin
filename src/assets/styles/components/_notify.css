@@ -1,0 +1,11 @@
+.notify {
+    color: #dee2e6 !important;
+    user-select: none;
+    cursor: default;
+}
+
+.notify > span {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #ced4da;
+}
